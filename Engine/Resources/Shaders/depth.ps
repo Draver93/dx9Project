@@ -1,0 +1,15 @@
+
+struct VS_OUTPUT
+{
+	float4 Position : POSITION;
+	float2 txr: TEXCOORD0;
+	float3 norm: TEXCOORD1;
+	float4 converPos : TEXCOORD2;
+	float4 originPos : TEXCOORD3;
+};
+
+float4 ps_main(VS_OUTPUT In) : COLOR0
+{
+	float var = 1.0f - In.converPos.z / In.converPos.w;
+    return float4(var, var, var, 1.0f);
+}

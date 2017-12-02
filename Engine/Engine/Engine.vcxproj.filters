@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{a5c3869f-64b8-4a69-b326-176e9fddcbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\headers">
+      <UniqueIdentifier>{ccd7680b-9112-40b7-944b-bec410c0abf6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources">
+      <UniqueIdentifier>{0c68751f-a784-483b-b658-7e5f1172ee0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\window">
+      <UniqueIdentifier>{a15f789e-0492-43fd-bf02-5c821e1282d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\animation">
+      <UniqueIdentifier>{599442a9-fc15-481e-9a5b-fa6257858d32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\animation\keyframe">
+      <UniqueIdentifier>{6fe6d44b-1fc0-4152-b72d-836858862fa3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\animation\skeletal">
+      <UniqueIdentifier>{2f592231-aceb-4d4c-a711-f1a7daac6a13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\effect">
+      <UniqueIdentifier>{a344d2e6-e2ac-4244-89eb-5c34fd157f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\mesh">
+      <UniqueIdentifier>{cd08f762-f431-4720-9751-0c1ec56f469e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\model">
+      <UniqueIdentifier>{7194baad-cff3-4273-a4d3-36a16fff1d37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\shader">
+      <UniqueIdentifier>{23a7fcda-a46c-4eb5-a3e1-70ab5502547a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\model\scene">
+      <UniqueIdentifier>{badbfb9e-8bcd-4d55-a798-06189007d881}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources\texture">
+      <UniqueIdentifier>{c6e470d5-ffbe-4b1b-9a1e-2e79b4ab63d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\window\graphics">
+      <UniqueIdentifier>{00feb665-3233-48ee-a7b9-1413340c20a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\window\graphics\renderer">
+      <UniqueIdentifier>{3948e697-95fd-4064-989e-de88d32ac4f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\window\keyboard">
+      <UniqueIdentifier>{451aa4e7-3670-43a0-a0dd-c76fac0084cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\window\mouse">
+      <UniqueIdentifier>{17ea121b-bbbc-4694-88bd-5ec32f88d591}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sources\main.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\headers\directx.h">
+      <Filter>Sources\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\window\cWindow.h">
+      <Filter>Sources\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\cResources.h">
+      <Filter>Sources\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\animation\cAnimation.h">
+      <Filter>Sources\resources\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\effect\cEffect.h">
+      <Filter>Sources\resources\effect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\mesh\cMesh.h">
+      <Filter>Sources\resources\mesh</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\shader\cShader.h">
+      <Filter>Sources\resources\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\model\cModel.h">
+      <Filter>Sources\resources\model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\model\scene\cScene.h">
+      <Filter>Sources\resources\model\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources\texture\cTexture.h">
+      <Filter>Sources\resources\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\window\graphics\cGraphics.h">
+      <Filter>Sources\window\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\window\graphics\renderer\cRenderer.h">
+      <Filter>Sources\window\graphics\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\window\mouse\cMouse.h">
+      <Filter>Sources\window\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\window\keyboard\cKeyboard.h">
+      <Filter>Sources\window\keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resource.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\main.cpp">
+      <Filter>Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\window\cWindow.cpp">
+      <Filter>Sources\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\cResources.cpp">
+      <Filter>Sources\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\animation\cAnimation.cpp">
+      <Filter>Sources\resources\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\effect\cEffect.cpp">
+      <Filter>Sources\resources\effect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\mesh\cMesh.cpp">
+      <Filter>Sources\resources\mesh</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\shader\cShader.cpp">
+      <Filter>Sources\resources\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\model\cModel.cpp">
+      <Filter>Sources\resources\model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\model\scene\cScene.cpp">
+      <Filter>Sources\resources\model\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources\texture\cTexture.cpp">
+      <Filter>Sources\resources\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\window\graphics\cGraphics.cpp">
+      <Filter>Sources\window\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\window\graphics\renderer\cRenderer.cpp">
+      <Filter>Sources\window\graphics\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\window\mouse\cMouse.cpp">
+      <Filter>Sources\window\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\window\keyboard\cKeyboard.cpp">
+      <Filter>Sources\window\keyboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\Sources\resource.rc">
+      <Filter>Sources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
