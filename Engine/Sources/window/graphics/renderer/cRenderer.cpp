@@ -1,6 +1,6 @@
 ﻿#include "cRenderer.h"
 
-//DX_CUBEMAP
+//DX_CUBE_MAP
 cRenderer::cRenderer(cGraphics *pGWnd, int(*rf)(), renderType flag)
 {
 	if (pGWnd == NULL) return;
