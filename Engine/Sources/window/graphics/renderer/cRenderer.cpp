@@ -1,6 +1,6 @@
-#include "cRenderer.h"
+ï»¿#include "cRenderer.h"
 
-
+//MANUAL_CUBEMAP
 cRenderer::cRenderer(cGraphics *pGWnd, int(*rf)(), renderType flag)
 {
 	if (pGWnd == NULL) return;
@@ -336,7 +336,7 @@ HRESULT cRenderer::renderObjects()
 	return S_OK;
 }
 
-int cRenderer::graphicLoop() //Ýòà ôóíêöèÿ íà äàííûé ìîìåíò çàòî÷åíà ïîò îòëîæåííûé ðåíäåðèíã
+int cRenderer::graphicLoop() //Ð­Ñ‚Ð° Ñ„ÑƒÐ½ÐºÑ†Ð¸Ñ Ð½Ð° Ð´Ð°Ð½Ð½Ñ‹Ð¹ Ð¼Ð¾Ð¼ÐµÐ½Ñ‚ Ð·Ð°Ñ‚Ð¾Ñ‡ÐµÐ½Ð° Ð¿Ð¾Ñ‚ Ð¾Ñ‚Ð»Ð¾Ð¶ÐµÐ½Ð½Ñ‹Ð¹ Ñ€ÐµÐ½Ð´ÐµÑ€Ð¸Ð½Ð³
 {
 	LPDIRECT3DDEVICE9 pDevice = pGraphics->getDevice();
 	cWindow *pWindow = pGraphics->getWindow();
